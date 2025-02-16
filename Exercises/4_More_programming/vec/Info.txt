@@ -1,0 +1,14 @@
+**Exercise Summary: 3D Vector Manipulation in C#**
+
+In this exercise, I implemented a class in C# to represent and manipulate 3D vectors. The tasks included:
+
+- Designing a class to hold three double values (x, y, z).
+- Implementing constructors and overloading mathematical operators for vector addition, subtraction, scalar multiplication, and more.
+- Calculating dot products, cross products, and the norm (magnitude) of vectors.
+- Writing methods for comparing vectors and printing their values for debugging.
+
+To get output fx:
+
+	mcs -target:library -out:vec.dll vec.cs
+	mcs -target:exe -out:main.exe -reference:vec.dll main.cs
+	mono main.exe
